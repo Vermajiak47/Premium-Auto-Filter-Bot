@@ -58,7 +58,7 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 auth_channel = environ.get('AUTH_CHANNEL', 'https://telegram.me/+L1doEfOpzVI2NmM1')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/Filmycloud1_Support/'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'Filmycloud1_Support'))
 
 # bot settings
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
